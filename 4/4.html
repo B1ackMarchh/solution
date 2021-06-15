@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="4.css">
+    <title>CheckBox</title>
+    <script src="4.js"></script>
+</head>
+
+<body>
+    <div class="header" id="head">
+        <p class="header__filler"> </p>
+        <p class="header__label">The Awesome CheckBoxs</p>
+    </div>
+    <div class="container">
+        <div class="box">
+            <div class="box__item">
+                <input type="checkbox" name="resize" id="resizeText" class="resizeText" onchange="resizeTextEl(this)">
+                <label for="resizeText">Изменить размер</label>
+            </div>
+            <div class="box__item">
+                <input type="checkbox" name="color" id="changeColor" class="changeColor" onchange="сolorСhanger(this)">
+                <label for="changeColor">Изменить цвет</label>
+            </div>
+            <div class="box__item">
+                <input type="checkbox" name="header" id="headerAdd" class="headerAdd" onchange="hederAder(this)">
+                <label for="headerAdd">Добавить шапку</label>
+            </div>
+            <div class="box__item">
+                <input type="checkbox" name="check" id="checkAll" onchange="checkinForAll(this)">
+                <label for="checkAll">Выбрать всё</label>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

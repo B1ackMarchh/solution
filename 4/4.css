@@ -1,0 +1,51 @@
+body {
+    background-color: aqua;
+    margin: 0;
+}
+
+.header {
+    padding: 0em;
+    display: flex;
+    background-color: #4a148c;
+    justify-content: space-between;
+    height: 0;
+    flex-basis: auto;
+}
+
+.header__label {
+    color: transparent;
+    margin-right: 10px;
+}
+
+.container {
+    max-width: 1200px;
+    display: block;
+    margin-left: auto;
+}
+
+.box {
+    margin-top: 20px;
+    border: 2px solid;
+    width: 40%;
+    background-color: grey;
+}
+
+.box__item {
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: antiquewhite;
+}
+
+.grow-size {
+    font-size: 50px;
+}
+
+.transparent-color{
+    color: aqua;
+}
+
+.show-head{
+    height: 3em;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="1.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verstka</title>
+    <script>
+        function showOrHideMenu() {
+            var menuPanel = document.getElementsByClassName('menu')[0];
+            if (getComputedStyle(menuPanel).width == '0px') {
+                menuPanel.classList.add('show-menu');
+            } else {
+                menuPanel.classList.remove('show-menu');
+            }
+        }
+
+        window.onresize = function () {
+            var menuPanel = document.getElementsByClassName('menu')[0];
+            if (menuPanel != null) {
+                menuPanel.classList.remove('show-menu');
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <p class="header__filler"> </p>
+            <p class="header__menu-button item unselectable" onclick="showOrHideMenu()">Menu</p>
+            <p class="header__label item">The Awesome Company</p>
+        </div>
+        <div class="container">
+            <div class="menu">
+                <div class="menu__item">
+                    <p>One</p>
+                </div>
+                <div class="menu__item">
+                    <p>Two</p>
+                </div>
+                <div class="menu__item">
+                    <p>Three</p>
+                </div>
+            </div>
+            <div class="content">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed asperiores vel nobis est ducimus et, autem
+                quae corporis ea placeat nihil, molestiae eaque, maiores eveniet minima. Consequatur, aperiam. Amet
+                voluptatem accusantium, vitae qui corporis nihil in mollitia vel porro ut odio molestiae sint? Eos
+                maiores dignissimos expedita officiis enim facilis quidem. Amet, recusandae unde ipsum, repellat odio
+                nulla aspernatur laborum commodi facilis ratione sequi cumque, voluptatum hic in. Doloremque, impedit
+                totam! Ipsum veritatis voluptatibus, delectus harum incidunt voluptatem iste fuga! A, doloribus! Odio,
+                suscipit ipsa, illo dolorem velit, fugit quia harum modi in quos numquam ex. Quisquam totam optio
+                assumenda.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed asperiores vel nobis est ducimus et, autem
+                quae corporis ea placeat nihil, molestiae eaque, maiores eveniet minima. Consequatur, aperiam. Amet
+                voluptatem accusantium, vitae qui corporis nihil in mollitia vel porro ut odio molestiae sint? Eos
+                maiores dignissimos expedita officiis enim facilis quidem. Amet, recusandae unde ipsum, repellat odio
+                nulla aspernatur laborum commodi facilis ratione sequi cumque, voluptatum hic in. Doloremque, impedit
+                totam! Ipsum veritatis voluptatibus, delectus harum incidunt voluptatem iste fuga! A, doloribus! Odio,
+                suscipit ipsa, illo dolorem velit, fugit quia harum modi in quos numquam ex. Quisquam totam optio
+                assumenda.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed asperiores vel nobis est ducimus et, autem
+                quae corporis ea placeat nihil, molestiae eaque, maiores eveniet minima. Consequatur, aperiam. Amet
+                voluptatem accusantium, vitae qui corporis nihil in mollitia vel porro ut odio molestiae sint? Eos
+                maiores dignissimos expedita officiis enim facilis quidem. Amet, recusandae unde ipsum, repellat odio
+                nulla aspernatur laborum commodi facilis ratione sequi cumque, voluptatum hic in. Doloremque, impedit
+                totam! Ipsum veritatis voluptatibus, delectus harum incidunt voluptatem iste fuga! A, doloribus! Odio,
+                suscipit ipsa, illo dolorem velit, fugit quia harum modi in quos numquam ex. Quisquam totam optio
+                assumenda.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed asperiores vel nobis est ducimus et, autem
+                quae corporis ea placeat nihil, molestiae eaque, maiores eveniet minima. Consequatur, aperiam. Amet
+                voluptatem accusantium, vitae qui corporis nihil in mollitia vel porro ut odio molestiae sint? Eos
+                maiores dignissimos expedita officiis enim facilis quidem. Amet, recusandae unde ipsum, repellat odio
+                nulla aspernatur laborum commodi facilis ratione sequi cumque, voluptatum hic in. Doloremque, impedit
+                totam! Ipsum veritatis voluptatibus, delectus harum incidunt voluptatem iste fuga! A, doloribus! Odio,
+                suscipit ipsa, illo dolorem velit, fugit quia harum modi in quos numquam ex. Quisquam totam optio
+                assumenda.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed asperiores vel nobis est ducimus et, autem
+                quae corporis ea placeat nihil, molestiae eaque, maiores eveniet minima. Consequatur, aperiam. Amet
+                voluptatem accusantium, vitae qui corporis nihil in mollitia vel porro ut odio molestiae sint? Eos
+                maiores dignissimos expedita officiis enim facilis quidem. Amet, recusandae unde ipsum, repellat odio
+                nulla aspernatur laborum commodi facilis ratione sequi cumque, voluptatum hic in. Doloremque, impedit
+                totam! Ipsum veritatis voluptatibus, delectus harum incidunt voluptatem iste fuga! A, doloribus! Odio,
+                suscipit ipsa, illo dolorem velit, fugit quia harum modi in quos numquam ex. Quisquam totam optio
+                assumenda.
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
